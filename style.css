@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: url(./Assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 1400px;
+}
+
+.gradie {
+  background: #1d4458;
+  text-align: center;
+  width: 350px;
+  height: 370px;
+  padding: 30px;
+
+}
+
+.text {
+  height: 0px;
+}
+
+.text h1 {
+  color: #fff;
+}
+
+.text p {
+  color: #6c98a1;
+  margin-top: 5px;
+}
+
+.img img {
+  width: 310px;
+  height: 340px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 350px;
+    height: 370px;
+}
+
+
+.content{
+    margin: auto;
+    width: 220px;
+}
+
+.login h2{
+   font-size: 32px;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+        /* background: red; */
+    gap: 5px;
+    
+}
+
+
+
+.login form p{
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.login form input{
+    padding: 10px;
+    width: 200px;
+}
+
+
