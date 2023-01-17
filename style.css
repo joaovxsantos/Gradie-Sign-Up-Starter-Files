@@ -103,9 +103,12 @@ form span a {
 }
 
 .check {
+  margin-top: 15px;
   display: flex;
+  gap: 5px;
 }
 
-.check [type="checkbox"] {
+.checkbox [type="checkbox"] {
   width: 15px;
+  margin-top: 5px;
 }
