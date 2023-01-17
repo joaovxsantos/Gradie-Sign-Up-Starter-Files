@@ -112,3 +112,10 @@ form span a {
   width: 15px;
   margin-top: 5px;
 }
+
+@media screen and (max-width:600px){
+  .container{
+    flex-direction: column;
+    }
+  
+}
